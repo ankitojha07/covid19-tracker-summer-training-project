@@ -5,6 +5,7 @@ import { fetchData } from './api/';
 import styles from './App.module.css';
 
 import image from './images/image.png';
+import 'chart.js/auto';
 
 class App extends React.Component {
   state = {
